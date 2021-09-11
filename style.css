@@ -1,0 +1,178 @@
+/* default Code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  margin-left: -4px;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Web Start */
+.logo img {
+  width: 90px;
+}
+.nav-link {
+  padding: 0 14px !important;
+  font-size: 18px;
+}
+/* Hero Section */
+.hero{
+  background-color: #f9f9ff;
+}
+.btn-def{
+  background-color: #8490ff;
+  color: #fff !important;
+}
+.hero-content{}
+.hero-content h4{}
+.hero-content h2{}
+.hero-content p{
+  color: #adb0b6;
+  margin-bottom: 30px;
+}
+.hero-content h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.hero-content h2 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+/* About Section */
+.about{
+  margin:50px 0 ;
+}
+.about-img img{
+  border: 2px solid #e6e9ec;
+  border-radius: 5px;
+}
+.about-content{}
+.about-content h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.about-content h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.about-content p{
+  margin-bottom: 35px;
+}
+/* Counter */
+.counter{
+  background-color: #8490ff;
+  color: #fff;
+  padding: 60px 0;
+}
+.singlec p{
+  font-size: 18px;
+}
+.plan{
+  padding: 100px 0;
+}
+.commonhead{}
+.commonhead h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.commonhead p {
+  font-size: 18px;
+}
+.singleplan h2{
+  margin-bottom: 30px;
+}
+.singleplan h4 {
+  font-size: 20px;
+}
+.singleplan p{}
+.singleplan ul {
+  margin: 30px 0;
+}
+.singleplan ul li {
+  color: #949494;
+  line-height: 50px;
+  font-size: 18px;
+}
+.outline-btn {
+  font-size: 18px;
+  border: 2px solid #8a9be7;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #8a9be7;
+  transition: .4s;
+  font-weight: 600;
+  box-shadow: 0px 0px 2px 1px #8a9be7;
+}
+.outline-btn:hover {
+  color: #fff;
+  background-color: #8a9be7;
+  border: 1px solid #8a9be7;
+}
+.team{
+  padding: 50px 0;
+}
+.single-team h2 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.single-team p {
+  margin: 20px 0;
+}
+.single-team h5 {
+  font-size: 15px;
+}
+.button a {
+  color: #000;
+  padding: 10px 20px;
+}
+.single-team img {
+  position: absolute;
+  top: -60px;
+  left: 25px;
+  width: 100px;
+}
+.w-49{
+  width: 49%;
+}
+.inputi {
+  border: 1px solid #cccccd;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.f-sub {
+  background: #17a2b8;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+.contact-d h2 {
+  font-size: 35px;
+}
+.contact-d p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+/* footer */
+.footer{
+  background-color: #04091e;
+  padding: 20px 0 10px 0;
+  color: #fff;
+}
